@@ -1,0 +1,116 @@
+/* Navbar */
+nav {
+    color: #fffefe; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+/* End Navbar */
+
+/* Body */
+body {
+    background-image: url(images/bg.jpg);
+    background-size: 3000px auto;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+}
+
+/* Judul index */
+.judul  {
+    font-size: 50px;
+    font-family: Cooper Black;  
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 160px;
+    margin-right: 300px;
+    margin-left: 300px;
+    color: #663419;
+    border: 0,5px solid white;
+    border-radius: 50px;
+    background-color: #fffefe;
+}
+
+/* Judul Kumpulan */
+.judul2 {
+    font-size: 40px;
+    font-family: Cooper Black;  
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+    color: #ffffff;
+}
+
+/* Judul Tabel */
+.judul3 {
+    font-size: 30px;
+    font-family: Cooper Black;  
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+    color: #ffffff;
+
+}
+
+/* Paragraf cerita */
+.content {
+    text-align: justify;
+    margin: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+    border-width: 60px;
+    border-radius: 55px;
+    background-color: white;
+    color: #663419;
+}
+
+/* Gambar */
+img {
+    float: right;
+    margin-left: 35px;
+    margin-bottom: 100px;
+}
+
+/* Tabel */
+table, th, td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    margin-top:auto;
+}
+tr {
+    background-color: whitesmoke;
+}
+/* End Tabel */
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #ffffff;
+}
